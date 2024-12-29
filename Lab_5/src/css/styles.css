@@ -1,0 +1,35 @@
+/* body {
+  font-family: Arial, sans-serif;
+}
+
+.highlight {
+  background-color: #ffcccc;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+}
+ */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+td:hover {
+  transition: background-color 0.3s ease;
+}
